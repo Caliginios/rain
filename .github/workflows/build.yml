@@ -18,7 +18,7 @@ jobs:
       - name: Publish Bundle to Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: custom-bundle
+          tag_name: latest
           files: |
             dist/*.js
             build/*.js
